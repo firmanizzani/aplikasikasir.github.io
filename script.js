@@ -1,24 +1,24 @@
 const menuData = [
-  { id: 1, name: 'Americano', price: 18000, category: 2, type: 'beverages', image: 'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1200&q=80' },
-  { id: 2, name: 'Cappuccino', price: 20000, category: 2, type: 'beverages', image: 'https://images.unsplash.com/photo-1517705008128-361805f42e86?auto=format&fit=crop&w=1200&q=80' },
+  { id: 1, name: 'Americano', price: 18000, category: 2, type: 'beverages', image: 'https://images.unsplash.com/photo-1580661869408-55ab23f2ca6e?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' },
+  { id: 2, name: 'Cappuccino', price: 20000, category: 2, type: 'beverages', image: 'https://images.unsplash.com/photo-1506372023823-741c83b836fe?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' },
   { id: 3, name: 'Latte', price: 22000, category: 2, type: 'beverages', image: 'https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=1200&q=80' },
-  { id: 4, name: 'Lemon Tea', price: 12000, category: 2, type: 'beverages', image: 'https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=1200&q=80' },
-  { id: 5, name: 'Milkshake', price: 18000, category: 2, type: 'beverages', image: 'https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=1200&q=80' },
-  { id: 6, name: 'Thai Tea', price: 15000, category: 2, type: 'beverages', image: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&w=1200&q=80' },
-  { id: 7, name: 'Matcha', price: 20000, category: 2, type: 'beverages', image: 'https://images.unsplash.com/photo-1499638673689-79a0b5115d87?auto=format&fit=crop&w=1200&q=80' },
-  { id: 8, name: 'Chocolate Float', price: 18000, category: 2, type: 'beverages', image: 'https://images.unsplash.com/photo-1573865526739-10659fec78a5?auto=format&fit=crop&w=1200&q=80' },
-  { id: 9, name: 'Lychee Tea', price: 12000, category: 2, type: 'beverages', image: 'https://images.unsplash.com/photo-1566677043200-9e0a8a9c5266?auto=format&fit=crop&w=1200&q=80' },
-  { id: 10, name: 'Orange Squash', price: 18000, category: 2, type: 'beverages', image: 'https://images.unsplash.com/photo-1621506289937-a8e4df240d0b?auto=format&fit=crop&w=1200&q=80' },
-  { id: 11, name: 'Nasi Goreng', price: 22000, category: 1, type: 'foods', image: 'https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=1200&q=80' },
-  { id: 12, name: 'Mie Goreng', price: 20000, category: 1, type: 'foods', image: 'https://images.unsplash.com/photo-1556316918-0b3d0f2f5f5d?auto=format&fit=crop&w=1200&q=80' },
-  { id: 13, name: 'Chicken Teriyaki', price: 25000, category: 1, type: 'foods', image: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80' },
-  { id: 14, name: 'Kentang Goreng', price: 17000, category: 1, type: 'foods', image: 'https://images.unsplash.com/photo-1576107232684-1279f390859f?auto=format&fit=crop&w=1200&q=80' },
-  { id: 15, name: 'Churos', price: 20000, category: 1, type: 'foods', image: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=1200&q=80' },
-  { id: 16, name: 'Pancake', price: 20000, category: 1, type: 'foods', image: 'https://images.unsplash.com/photo-1506084868230-bb9d95c24759?auto=format&fit=crop&w=1200&q=80' },
-  { id: 17, name: 'Roti Bakar', price: 20000, category: 1, type: 'foods', image: 'https://images.unsplash.com/photo-1517433670267-08bbd4be890f?auto=format&fit=crop&w=1200&q=80' },
-  { id: 18, name: 'Chicken Katsu', price: 27000, category: 1, type: 'foods', image: 'https://images.unsplash.com/photo-1562967914-608f82629710?auto=format&fit=crop&w=1200&q=80' },
-  { id: 19, name: 'Mango Sticky Rice', price: 22000, category: 1, type: 'foods', image: 'https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=1200&q=80' },
-  { id: 20, name: 'Spaghetti Carbonara', price: 28000, category: 1, type: 'foods', image: 'https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?auto=format&fit=crop&w=1200&q=80' },
+  { id: 4, name: 'Lemon Tea', price: 12000, category: 2, type: 'beverages', image: 'https://images.unsplash.com/photo-1556679343-c7306c1976bc?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' },
+  { id: 5, name: 'Milkshake', price: 18000, category: 2, type: 'beverages', image: 'https://images.unsplash.com/photo-1624781740834-fbfbf5fd221a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fE1pbGtTaGFrZXxlbnwwfHwwfHx8MA%3D%3D' },
+  { id: 6, name: 'Thai Tea', price: 15000, category: 2, type: 'beverages', image: 'https://images.unsplash.com/photo-1644204010193-a35de7b0d702?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' },
+  { id: 7, name: 'Matcha', price: 20000, category: 2, type: 'beverages', image: 'https://media.istockphoto.com/id/2164727441/id/foto/es-matcha-green-tea-latte-duduk-di-atas-nampan-kayu.webp?a=1&b=1&s=612x612&w=0&k=20&c=iyOL3xInvnOfJBeHePiwSlBiTUQr3t_zcftuf6GygkU=' },
+  { id: 8, name: 'Chocolate Float', price: 18000, category: 2, type: 'beverages', image: 'https://images.unsplash.com/photo-1553787499-6f9133860278?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' },
+  { id: 9, name: 'Lychee Tea', price: 12000, category: 2, type: 'beverages', image: 'https://images.unsplash.com/photo-1664512298340-8df247f52488?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8THljaGVlJTIwVGVhfGVufDB8fDB8fHww' },
+  { id: 10, name: 'Orange Squash', price: 18000, category: 2, type: 'beverages', image: 'https://images.unsplash.com/photo-1740555612192-3e3cf77b5d1f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fE9yYW5nZSUyMFNxdWFzaCUyMGRyaW5rfGVufDB8fDB8fHww' },
+  { id: 11, name: 'Nasi Goreng', price: 22000, category: 1, type: 'foods', image: 'https://media.istockphoto.com/id/2171502071/id/foto/nasi-goreng-tiwul-ikan-asin-pete-atau-kacang-bau-petai-petes-asin-ikan-asin-tiwul-nasi-goreng.webp?a=1&b=1&s=612x612&w=0&k=20&c=ooCVoZPfdwx-xzCXFwvprNAmHk8oSuAnYV3JyDorG7g=' },
+  { id: 12, name: 'Mie Goreng', price: 20000, category: 1, type: 'foods', image: 'https://images.unsplash.com/photo-1645696329525-8ec3bee460a9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bWllJTIwZ29yZW5nfGVufDB8fDB8fHww' },
+  { id: 13, name: 'Chicken Teriyaki', price: 25000, category: 1, type: 'foods', image: 'https://images.unsplash.com/photo-1638502182261-7be714a565ce?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGNoaWNrZW4lMjB0ZXJpeWFraXxlbnwwfHwwfHx8MA%3D%3D' },
+  { id: 14, name: 'Kentang Goreng', price: 17000, category: 1, type: 'foods', image: 'https://images.unsplash.com/photo-1661081090290-9b66fd49d882?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGZyZW5jaCUyMGZyaWVzJTIwd2l0aCUyMHBsYXRlfGVufDB8fDB8fHww' },
+  { id: 15, name: 'Churos', price: 20000, category: 1, type: 'foods', image: 'https://media.istockphoto.com/id/1328931045/id/foto/sarapan-dengan-dessert-churos-karamel-dan-teh.webp?a=1&b=1&s=612x612&w=0&k=20&c=U9-_w9q9qMu_NDKx5rQtn8kRee96cKoSHNORV6_23EE=' },
+  { id: 16, name: 'Pancake', price: 20000, category: 1, type: 'foods', image: 'https://images.unsplash.com/photo-1575853121743-60c24f0a7502?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHBhbmNha2V8ZW58MHx8MHx8fDA%3D' },
+  { id: 17, name: 'Roti Bakar', price: 20000, category: 1, type: 'foods', image: 'https://images.unsplash.com/photo-1631707928780-153b053e09aa?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHJvdGklMjBiYWthcnxlbnwwfHwwfHx8MA%3D%3D' },
+  { id: 18, name: 'Chicken Katsu', price: 27000, category: 1, type: 'foods', image: 'https://media.istockphoto.com/id/2158928956/id/foto/ayam-goreng-renyah-dengan-kari-dan-nasi-jepang-gaya-makanan-jepang-dan-korea.webp?a=1&b=1&s=612x612&w=0&k=20&c=G3dKcVDpLHhoAgKWJ_oPD__vHRqgYkWl9FxxLr2D-tU=' },
+  { id: 19, name: 'Mango Sticky Rice', price: 22000, category: 1, type: 'foods', image: 'https://images.unsplash.com/photo-1705056508219-0aa0ceb16820?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8TWFuZ28lMjBTdGlja3klMjBSaWNlfGVufDB8fDB8fHww' },
+  { id: 20, name: 'Spaghetti Carbonara', price: 28000, category: 1, type: 'foods', image: 'https://media.istockphoto.com/id/946666108/id/foto/spaghetti-carbonara-dengan-roti-bawang-putih.webp?a=1&b=1&s=612x612&w=0&k=20&c=EyqExuqV0aeGic6Aifda0JaR2tp9r9tFqH7UYAQDgEQ=' },
 ];
 
 let cart = [];
@@ -275,7 +275,7 @@ function renderAdminList() {
 function loginAdmin() {
   const user = document.getElementById('admin-user').value;
   const pass = document.getElementById('admin-pass').value;
-  if (user === 'cafekita' && pass === 'kelompok2') {
+  if (user === 'cafekita' && pass === 'testing') {
     adminLoggedIn = true;
     adminLoginBox.classList.add('hidden');
     adminPanel.classList.remove('hidden');
