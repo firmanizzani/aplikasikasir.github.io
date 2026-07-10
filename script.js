@@ -19,7 +19,7 @@ const menuData = [
   { id: 18, name: 'Chicken Katsu', price: 27000, category: 1, type: 'foods', image: 'https://media.istockphoto.com/id/2158928956/id/foto/ayam-goreng-renyah-dengan-kari-dan-nasi-jepang-gaya-makanan-jepang-dan-korea.webp?a=1&b=1&s=612x612&w=0&k=20&c=G3dKcVDpLHhoAgKWJ_oPD__vHRqgYkWl9FxxLr2D-tU=' },
   { id: 19, name: 'Mango Sticky Rice', price: 22000, category: 1, type: 'foods', image: 'https://images.unsplash.com/photo-1705056508219-0aa0ceb16820?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8TWFuZ28lMjBTdGlja3klMjBSaWNlfGVufDB8fDB8fHww' },
   { id: 20, name: 'Spaghetti Carbonara', price: 28000, category: 1, type: 'foods', image: 'https://media.istockphoto.com/id/946666108/id/foto/spaghetti-carbonara-dengan-roti-bawang-putih.webp?a=1&b=1&s=612x612&w=0&k=20&c=EyqExuqV0aeGic6Aifda0JaR2tp9r9tFqH7UYAQDgEQ=' },
-];
+]; 
 
 let cart = [];
 let selectedAdminItem = null;
